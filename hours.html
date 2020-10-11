@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Haukai Restaurant Hours</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preload" href="css/style.css" as="style">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="stylesheet" href="css/w3schools.css">
+<link rel="stylesheet" href="css/style.css">
+<meta http-equiv="Cache-control" content="public, max-age=3600, must-revalidate">
+
+</head>
+<body>
+   <!-- Main header that is used across all the pages of the website -->
+    <header class="w3-container w3-white" aria-label="header logo for restaurant">
+      <h1>THE  HAUKAI  RESTAURANT</h1>
+    </header>
+   <!--  Navigaton bars that are used across all the pages of the website, to navigate from page to page-->
+   <nav class="w3-bar w3-border w3-light-grey w3-center" aria-label="Main Navigation">
+    <a href="index.html" style="width:14.28%" class="w3-bar-item w3-button w3-mobile" role="button" aria-label="Home button">Home</a>
+    <a href="ourstory.html" style="width:14.28%" class="w3-bar-item w3-button w3-mobile" role="button" aria-label="Our Story button">Our Story</a>
+    <a href="menu.html" style="width:14.28%" class="w3-bar-item w3-button w3-mobile" role="button" aria-label="Menu button">Menu</a>
+    <a href="reservations.html" style="width:14.28%" class="w3-bar-item w3-button w3-mobile" role="button" aria-label="Reservation">Reservations</a>
+    <a href="hours.html" style="width:14.28%" class="w3-bar-item w3-button w3-mobile" role="button" aria-label="Hours button">Hours</a>
+    <a href="location.html" style="width:14.28%" class="w3-bar-item w3-button w3-mobile" role="button" aria-label="Location button">Location</a>
+    <a href="contactus.html" style="width:14.28%" class="w3-bar-item w3-button w3-mobile" role="button" aria-label="Contact Us button" >Contact Us</a>
+  </nav>
+         <!-- Main content with embedded google calendar-->
+    <main class="w3-container w3-black">
+        <div class="w3-row">
+          <div class="w3-container w3-half" role="main" aria-label="Opening Hours Details" id="openinghoursinfo">
+            <h2>HAUKAI RESTAURANT HOURS</h2><br>
+            <p>Wednesday - Sunday.  6.00 pm - 11.00 pm</p>
+            <p></p>
+            <p>Monday - Tuesday.  Closed</p>
+            <br>
+            <p>Please note that the calendar is for viewing purposes only, you will not be able to enter any information on it.  Any information on the calendar is created by The Haukai Restaurant.  This information will show upcoming events and when the restaurant is fully booked.</p>
+            <p></p>
+            <p>The highlighted day on the calendar represents the current day, the arrow buttons on the calendar can be used to navigate between months and years.</p>
+          </div>
+          <div class="w3-container w3-half">
+            <div class="container"> 
+            <iframe class="responsive-iframe" src="https://calendar.google.com/calendar/embed?src=bookkeepingajw%40gmail.com&ctz=Pacific%2FAuckland" aria-label="calendar" id="iframerecalendar"></iframe>
+          </div>
+         </div>
+        </div>
+    </main>
+  <!-- Main footer that is used across all the pages of the website -->
+  <footer class="w3-container w3-light-grey" aria-label="footer for Haukai Restaurant including privacy statement">
+    <p>©Copyright 2020 by The Haukai Restaurant. All rights reserved.<br>
+      <a href="privacystatement/TheHaukaiRestaurantPrivacyStatement.pdf">Privacy Statement - By clicking on this link it will open a separate PDF file</a></p>
+</footer>
+</body>
+</html>
